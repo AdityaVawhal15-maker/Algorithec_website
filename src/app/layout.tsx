@@ -14,6 +14,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "e-14R8MRyyows_GwNsstyfaz8m-fg70DaGn0pSQzGt0",
+  },
   title: {
     default: "ALGORITHEC — The AI Decision Engine",
     template: "%s — ALGORITHEC",

@@ -40,10 +40,10 @@ export function Navigation() {
         )}
       >
         <nav
-          className="section-padding mx-auto flex h-16 md:h-[72px] max-w-[1400px] items-center justify-between"
+          className="px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 mx-auto flex h-16 md:h-[72px] max-w-[1400px] items-center justify-between"
           aria-label="Main navigation"
         >
-          <Logo variant="full" size="md" />
+          <Logo variant="full" size="md" className="-ml-1 lg:ml-0" />
 
           <ul className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
