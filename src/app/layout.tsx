@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { SmoothScroll } from "@/components/SmoothScroll";
+import { CookieConsent } from "@/components/CookieConsent";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -73,6 +74,7 @@ export default function RootLayout({
         <Navigation />
         <main>{children}</main>
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   );

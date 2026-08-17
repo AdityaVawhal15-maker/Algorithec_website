@@ -18,15 +18,15 @@ export function Logo({
   href = "/",
 }: LogoProps) {
   const sizes = {
-    sm: { height: 36, width: 160 },
-    md: { height: 48, width: 210 },
-    lg: { height: 60, width: 260 },
+    sm: { height: 40, width: 145 },
+    md: { height: 52, width: 185 },
+    lg: { height: 64, width: 225 },
   };
 
   const markSizes = {
-    sm: 32,
-    md: 44,
-    lg: 56,
+    sm: 36,
+    md: 48,
+    lg: 60,
   };
 
   const content =
@@ -40,8 +40,8 @@ export function Logo({
           "h-auto object-contain transition-all duration-200",
           theme === "dark" && "brightness-0 invert",
           size === "sm" && "max-h-9 sm:max-h-10",
-          size === "md" && "max-h-11 md:max-h-12",
-          size === "lg" && "max-h-14 lg:max-h-16"
+          size === "md" && "max-h-10 sm:max-h-11 md:max-h-12",
+          size === "lg" && "max-h-13 lg:max-h-16"
         )}
         priority
       />
