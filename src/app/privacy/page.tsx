@@ -245,12 +245,12 @@ export default function PrivacyPage() {
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">6.1 Access &amp; Portability</h3>
                 <p className="mb-2">You have the right to access a copy of your personal data (within 30 days of request, free of charge once per year) and the right to data portability — receiving your data in a structured, portable format to transfer to another service.</p>
-                <p>To request: Email <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">privacy@algorithec.ai</a>, use the in-app request form, or submit a support ticket with your identification details.</p>
+                <p>To request: Email <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a>, use the in-app request form, or submit a support ticket with your identification details.</p>
               </div>
 
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">6.2 Correction &amp; Deletion</h3>
-                <p className="mb-2">You may update inaccurate or incomplete information via account settings or by emailing <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">privacy@algorithec.ai</a>.</p>
+                <p className="mb-2">You may update inaccurate or incomplete information via account settings or by emailing <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a>.</p>
                 <p className="mb-2">You have the right to request permanent deletion of your data (&quot;Right to be Forgotten&quot;), subject to exceptions for legal/regulatory requirements (e.g., transaction data retained 7 years for tax compliance) and fraud prevention. Processing takes 30–45 days. Note: Account deletion is irreversible and cannot be recovered.</p>
               </div>
 
@@ -261,13 +261,13 @@ export default function PrivacyPage() {
                   <li><span className="font-medium text-black">Cookies &amp; Tracking:</span> Disable cookies in browser settings; Do Not Track (DNT) signals honored. May affect functionality.</li>
                   <li><span className="font-medium text-black">Analytics:</span> Opt-out of Google Analytics or disable event tracking via Settings → Privacy.</li>
                   <li><span className="font-medium text-black">Location Services:</span> Disable GPS in device settings. May reduce service quality.</li>
-                  <li><span className="font-medium text-black">Third-Party Sharing:</span> Opt-out of referral partnerships by emailing <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">privacy@algorithec.ai</a>.</li>
+                  <li><span className="font-medium text-black">Third-Party Sharing:</span> Opt-out of referral partnerships by emailing <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a>.</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">6.4 AI/ML Model Training</h3>
-                <p>You may request to exclude your data from ML model training by emailing <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">privacy@algorithec.ai</a>. Takes effect within 30 days. May affect recommendation quality.</p>
+                <p>You may request to exclude your data from ML model training by emailing <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a>. Takes effect within 30 days. May affect recommendation quality.</p>
               </div>
             </div>
           </section>
@@ -292,7 +292,7 @@ export default function PrivacyPage() {
           {/* 8. Children's Privacy */}
           <section>
             <h2 className="heading-editorial text-2xl md:text-3xl font-medium text-black mb-6">8. Children&apos;s Privacy</h2>
-            <p className="mb-4">You must be 18 years or older (or legal age of majority in your jurisdiction) to use the Platform. We do not knowingly collect data from minors. If you believe a minor has registered, parents/guardians may contact <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">privacy@algorithec.ai</a> with proof of custody to request account and data deletion.</p>
+            <p className="mb-4">You must be 18 years or older (or legal age of majority in your jurisdiction) to use the Platform. We do not knowingly collect data from minors. If you believe a minor has registered, parents/guardians may contact <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a> with proof of custody to request account and data deletion.</p>
           </section>
 
           <hr className="border-border-light" />
@@ -333,7 +333,7 @@ export default function PrivacyPage() {
 
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">10.3 Grievance Redressal</h3>
-                <p>Email: <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">privacy@algorithec.ai</a> with subject &quot;Data Protection Grievance.&quot; We acknowledge within 30 days and resolve within 45 days at no charge. If not satisfied, you may contact the Data Protection Authority (when established) or pursue legal remedies.</p>
+                <p>Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a> with subject &quot;Data Protection Grievance.&quot; We acknowledge within 30 days and resolve within 45 days at no charge. If not satisfied, you may contact the Data Protection Authority (when established) or pursue legal remedies.</p>
               </div>
             </div>
           </section>
@@ -373,9 +373,9 @@ export default function PrivacyPage() {
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">Privacy Questions</h3>
                 <p className="mb-1"><span className="font-medium text-black">Privacy Compliance Team</span></p>
-                <p className="mb-1">Email: <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">info@algorithec.com</a></p>
+                <p className="mb-1">Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
                 <p className="mb-1">Phone: +91 7396144250</p>
-                <p>Website: www.algorithec.ai</p>
+                <p>Website: algorithec.com</p>
                 <p className="mt-3 text-sm">Response time: Within 24 business hours for queries · 30 days for access requests · 45 days for deletion requests · 30 days for correction requests</p>
               </div>
 
@@ -392,7 +392,7 @@ export default function PrivacyPage() {
 
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">Grievance Redressal Officer</h3>
-                <p className="mb-1">Email: <a href="mailto:grievance@algorithec.ai" className="text-blue hover:underline">info@algorithec.com</a></p>
+                <p className="mb-1">Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
                 <p className="mb-1">Phone: +91 7396144250</p>
                 <p>Hours: Monday–Friday, 10 AM – 6 PM IST</p>
                 <p className="mt-3 text-sm">Process: Submit complaint with details → acknowledge within 24 hours → investigate within 30 days → respond with resolution → escalate if not satisfied.</p>

@@ -313,14 +313,14 @@ export default function SecurityPage() {
             <div className="space-y-3">
               <div>
                 <p className="font-medium text-black mb-1">Security Incidents</p>
-                <p>Email: <a href="mailto:security@algorithec.ai" className="text-blue hover:underline">security@algorithec.ai</a></p>
+                <p>Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
                 <p>Phone: +91 7396144250</p>
                 <p>Available 24/7</p>
               </div>
 
               <div>
                 <p className="font-medium text-black mb-1">Data Protection</p>
-                <p>Email: <a href="mailto:privacy@algorithec.ai" className="text-blue hover:underline">privacy@algorithec.ai</a></p>
+                <p>Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
                 <p>Hours: Monday–Friday, 10 AM – 6 PM IST</p>
               </div>
 

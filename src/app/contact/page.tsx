@@ -12,7 +12,7 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
-  const [form, setForm] = useState({ name: "", email: "", message: "", type: "general" });
+  const [form, setForm] = useState({ name: "", email: "", message: "", type: "general", website: "" });
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -142,6 +142,17 @@ export default function ContactPage() {
                       value={form.message}
                       onChange={(e) => setForm({ ...form, message: e.target.value })}
                       className="w-full px-4 py-3 bg-gray-50 border border-black/[0.06] rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue focus:border-transparent resize-none"
+                    />
+                  </div>
+                  {/* Honeypot field for bot spam prevention */}
+                  <div className="hidden" aria-hidden="true">
+                    <input
+                      type="text"
+                      name="website"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={form.website}
+                      onChange={(e) => setForm({ ...form, website: e.target.value })}
                     />
                   </div>
                 </div>

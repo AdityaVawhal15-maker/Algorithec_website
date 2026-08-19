@@ -223,7 +223,7 @@ export default function AccessibilityPage() {
             <div className="space-y-4">
               <div>
                 <p className="font-medium text-black mb-2">Contact Us</p>
-                <p className="mb-1">Email: <a href="mailto:accessibility@algorithec.ai" className="text-blue hover:underline">accessibility@algorithec.ai</a></p>
+                <p className="mb-1">Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
                 <p className="mb-1">Phone: +91 7396144250 (relay service option available)</p>
                 <p>In-app chat available. Response within 24 hours.</p>
               </div>
@@ -249,7 +249,7 @@ export default function AccessibilityPage() {
           <section>
             <h2 className="heading-editorial text-2xl md:text-3xl font-medium text-black mb-6">7. Feedback on Accessibility</h2>
 
-            <p className="mb-4">To report an accessibility issue, email <a href="mailto:accessibility@algorithec.ai" className="text-blue hover:underline">accessibility@algorithec.ai</a> including your device and browser, a description of the issue, steps to reproduce it, and any suggested alternatives.</p>
+            <p className="mb-4">To report an accessibility issue, email <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a> including your device and browser, a description of the issue, steps to reproduce it, and any suggested alternatives.</p>
 
             <p className="mb-2 font-medium text-black">Resolution timeline:</p>
             <ul className="list-disc pl-5 space-y-1">

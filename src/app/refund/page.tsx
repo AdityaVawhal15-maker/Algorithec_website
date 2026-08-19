@@ -175,7 +175,7 @@ export default function RefundPage() {
                 <span className="font-medium text-black">Seller may</span> offer a replacement, a refund, require return first, or deny. If denied, contact Algorithec support.
               </li>
               <li>
-                <span className="font-medium text-black">Escalate to Algorithec</span> — email <a href="mailto:support@algorithec.ai" className="text-blue hover:underline">support@algorithec.ai</a>. We will facilitate further escalation. If the seller still denies, a consumer complaint is available.
+                <span className="font-medium text-black">Escalate to Algorithec</span> — email <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a>. We will facilitate further escalation. If the seller still denies, a consumer complaint is available.
               </li>
               <li>
                 <span className="font-medium text-black">Return process</span> — the seller will arrange pickup or return shipping. Items must be in returnable condition. Refund is processed after verification. Keep proof of return.
@@ -257,11 +257,11 @@ export default function RefundPage() {
           {/* 10. Contact */}
           <section>
             <h2 className="heading-editorial text-2xl md:text-3xl font-medium text-black mb-6">10. Contact for Refund Assistance</h2>
-            <p className="mb-2">Email: <a href="mailto:support@algorithec.ai" className="text-blue hover:underline">support@algorithec.ai</a></p>
+            <p className="mb-2">Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
             <p className="mb-2">Phone: +91 7396144250</p>
             <p className="mb-2">In-App Chat: Available 24/7</p>
             <p className="mb-4">Hours for phone/email: Monday–Friday, 10 AM – 6 PM IST</p>
-            <p>For formal grievances: <a href="mailto:grievance@algorithec.ai" className="text-blue hover:underline">grievance@algorithec.ai</a> — investigation within 30 days, response within 45 days.</p>
+            <p>For formal grievances: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a> — investigation within 30 days, response within 45 days.</p>
           </section>
 
           <div className="pt-4 text-sm text-graphite/60">
