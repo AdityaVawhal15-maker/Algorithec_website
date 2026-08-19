@@ -15,6 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://algorithec.com"),
   verification: {
     google: "e-14R8MRyyows_GwNsstyfaz8m-fg70DaGn0pSQzGt0",
   },
@@ -34,7 +35,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "ALGORITHEC" }],
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/logo-mark.png", type: "image/png" },
+    ],
+    shortcut: "/logo-mark.png",
+    apple: "/logo-mark.png",
   },
   openGraph: {
     type: "website",
@@ -53,6 +58,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  alternates: {
+    canonical: "https://algorithec.com/",
   },
 };
 
