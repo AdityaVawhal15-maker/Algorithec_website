@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 import { FadeIn } from "@/components/ui/Motion";
@@ -38,6 +39,16 @@ const comingSoon = [
 export default function DevelopersPage() {
   return (
     <>
+      <PageStructuredData
+              title="Developers — ALGORITHEC"
+              description="API documentation, SDKs, and integration guides for the ALGORITHEC Decision Engine platform."
+              url="https://algorithec.com/developers"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Developers", url: "https://algorithec.com/developers" },
+              ]}
+            />
       <PageHero
         label="Developers"
         title="Build on the Decision Engine."

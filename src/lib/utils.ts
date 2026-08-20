@@ -21,7 +21,7 @@ export const siteConfig = {
 
 export const navLinks = [
   { label: "Flouna AI", href: "/#flouna" },
-  { label: "Technology", href: "/#technology" },
+  { label: "Technology", href: "/technology" },
   { label: "Research", href: "/research" },
   { label: "Developers", href: "/developers" },
   { label: "About", href: "/about" },
@@ -33,7 +33,7 @@ export const navLinks = [
 export const footerLinks = {
   platform: [
     { label: "Flouna AI", href: "/#flouna" },
-    { label: "Technology", href: "/#technology" },
+    { label: "Technology", href: "/technology" },
     { label: "How It Works", href: "/#how-it-works" },
     { label: "Early Access", href: "/#early-access" },
     { label: "Developers", href: "/developers" },

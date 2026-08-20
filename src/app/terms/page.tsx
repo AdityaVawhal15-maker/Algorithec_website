@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 
@@ -13,6 +14,16 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <>
+      <PageStructuredData
+              title="Terms of Service — ALGORITHEC"
+              description="ALGORITHEC Terms of Service — legal terms governing your use of our platform and services."
+              url="https://algorithec.com/terms"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Terms of Service", url: "https://algorithec.com/terms" },
+              ]}
+            />
       <PageHero
         label="Legal"
         title="Terms of Service"

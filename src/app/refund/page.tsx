@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 
@@ -13,6 +14,16 @@ export const metadata: Metadata = {
 export default function RefundPage() {
   return (
     <>
+      <PageStructuredData
+              title="Refund Policy — ALGORITHEC"
+              description="ALGORITHEC Refund & Cancellation Policy — terms and conditions for refunds and cancellations."
+              url="https://algorithec.com/refund"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Refund Policy", url: "https://algorithec.com/refund" },
+              ]}
+            />
       <PageHero
         label="Legal"
         title="Refund &amp; Cancellation Policy"

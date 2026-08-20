@@ -1,8 +1,9 @@
 "use client";
 
 import { FadeIn, SectionHeader, StaggerContainer, StaggerItem } from "@/components/ui/Motion";
+import { Button } from "@/components/ui/Button";
 import { domains } from "@/lib/utils";
-import { Brain, Database, Layers, Shield, Zap, Globe } from "lucide-react";
+import { Brain, Database, Layers, Shield, Zap, Globe, ArrowUpRight } from "lucide-react";
 
 const stack = [
   {
@@ -95,6 +96,12 @@ export function Technology() {
                   ))}
                 </div>
               </div>
+            </div>
+            <div className="mt-12 text-center">
+              <Button href="/technology" variant="secondary" size="md">
+                Explore Technology Stack
+                <ArrowUpRight className="w-4 h-4 ml-2" />
+              </Button>
             </div>
           </div>
         </FadeIn>

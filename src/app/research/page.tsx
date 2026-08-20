@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 import { FadeIn } from "@/components/ui/Motion";
@@ -64,6 +65,16 @@ const blogPosts = [
 export default function ResearchPage() {
   return (
     <>
+      <PageStructuredData
+              title="Research — ALGORITHEC"
+              description="AI research, algorithmic architecture, and benchmarks from ALGORITHEC."
+              url="https://algorithec.com/research"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Research", url: "https://algorithec.com/research" },
+              ]}
+            />
       <PageHero
         label="Research"
         title="Advancing the science of intelligent decisions."

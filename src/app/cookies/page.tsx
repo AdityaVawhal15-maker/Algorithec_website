@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 
@@ -13,6 +14,16 @@ export const metadata: Metadata = {
 export default function CookiesPage() {
   return (
     <>
+      <PageStructuredData
+              title="Cookie Policy — ALGORITHEC"
+              description="ALGORITHEC Cookie Policy — how we use essential and functional cookies on our platform."
+              url="https://algorithec.com/cookies"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Cookie Policy", url: "https://algorithec.com/cookies" },
+              ]}
+            />
       <PageHero
         label="Legal"
         title="Cookie Policy"

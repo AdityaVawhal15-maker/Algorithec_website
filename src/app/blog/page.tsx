@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 import { FadeIn } from "@/components/ui/Motion";
@@ -15,6 +16,16 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   return (
     <>
+      <PageStructuredData
+              title="Blog — ALGORITHEC"
+              description="News, insights, and technological updates from the ALGORITHEC team."
+              url="https://algorithec.com/blog"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Blog", url: "https://algorithec.com/blog" },
+              ]}
+            />
       <PageHero
         label="Blog"
         title="Insights from the team building the future of decisions."

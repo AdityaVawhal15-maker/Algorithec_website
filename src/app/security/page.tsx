@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 
@@ -13,6 +14,16 @@ export const metadata: Metadata = {
 export default function SecurityPage() {
   return (
     <>
+      <PageStructuredData
+              title="Security — ALGORITHEC"
+              description="ALGORITHEC Security Policy — our infrastructure safeguards, compliance standards, and vulnerability reporting."
+              url="https://algorithec.com/security"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Security", url: "https://algorithec.com/security" },
+              ]}
+            />
       <PageHero
         label="Legal"
         title="Security"

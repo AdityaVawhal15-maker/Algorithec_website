@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection, ContentBlock } from "@/components/PageLayout";
 import { FadeIn } from "@/components/ui/Motion";
@@ -49,6 +50,16 @@ const leadership = [
 export default function CompanyPage() {
   return (
     <>
+      <PageStructuredData
+              title="Company — ALGORITHEC"
+              description="Discover ALGORITHEC vision, leadership, values, and company overview."
+              url="https://algorithec.com/company"
+              pageType="AboutPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Company", url: "https://algorithec.com/company" },
+              ]}
+            />
       <PageHero
         label="Company"
         title="Building the intelligence layer for every decision."

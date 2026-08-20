@@ -1,5 +1,6 @@
 "use client";
 
+import { PageStructuredData } from "@/components/PageStructuredData";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { PageHero, ContentSection } from "@/components/PageLayout";
@@ -41,6 +42,16 @@ export default function ContactPage() {
 
   return (
     <>
+      <PageStructuredData
+              title="Contact — ALGORITHEC"
+              description="Get in touch with ALGORITHEC for partnerships, developer integrations, enterprise inquiries, and support."
+              url="https://algorithec.com/contact"
+              pageType="ContactPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Contact", url: "https://algorithec.com/contact" },
+              ]}
+            />
       <PageHero
         label="Contact"
         title="Get in touch."

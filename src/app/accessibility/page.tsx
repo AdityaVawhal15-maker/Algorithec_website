@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 
@@ -13,6 +14,16 @@ export const metadata: Metadata = {
 export default function AccessibilityPage() {
   return (
     <>
+      <PageStructuredData
+              title="Accessibility — ALGORITHEC"
+              description="ALGORITHEC Accessibility Statement — our commitment to digital accessibility for all users."
+              url="https://algorithec.com/accessibility"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Accessibility", url: "https://algorithec.com/accessibility" },
+              ]}
+            />
       <PageHero
         label="Legal"
         title="Accessibility"

@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 import { PageHero, ContentSection } from "@/components/PageLayout";
 import { FadeIn } from "@/components/ui/Motion";
@@ -58,6 +59,16 @@ const openRoles = [
 export default function CareersPage() {
   return (
     <>
+      <PageStructuredData
+              title="Careers — ALGORITHEC"
+              description="Join ALGORITHEC and help engineer intelligent AI decision infrastructure."
+              url="https://algorithec.com/careers"
+              pageType="WebPage"
+              breadcrumbs={[
+                { name: "Home", url: "https://algorithec.com/" },
+                { name: "Careers", url: "https://algorithec.com/careers" },
+              ]}
+            />
       <PageHero
         label="Careers"
         title="Help us build the future of decisions."
