@@ -3,9 +3,9 @@ import { PageHero } from "@/components/PageLayout";
 import { Technology } from "@/components/home/Technology";
 
 export const metadata: Metadata = {
-  title: "Technology | The AI Decision Engine Stack",
+  title: "Technology",
   description:
-    "Explore ALGORITHEC's modular AI architecture: Intent Parser, Decision Engine, Real-Time Data Layer, Inference Pipeline, Trust Layer, and Domain Adapter — built for decisions at planetary scale.",
+    "Explore ALGORITHEC modular AI architecture: Intent Parser, Decision Engine, Real-Time Data Layer, and Inference Pipeline.",
   alternates: {
     canonical: "https://algorithec.com/technology",
   },

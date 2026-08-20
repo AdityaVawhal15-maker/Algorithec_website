@@ -3,7 +3,11 @@ import { PageHero, ContentSection } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Accessibility",
-  description: "ALGORITHEC Accessibility Policy — our commitment to making the Platform accessible to everyone.",
+  description:
+    "ALGORITHEC Accessibility Statement — our commitment to digital accessibility for all users.",
+  alternates: {
+    canonical: "https://algorithec.com/accessibility",
+  },
 };
 
 export default function AccessibilityPage() {

@@ -5,7 +5,11 @@ import { ArrowUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Research",
-  description: "AI research, engineering blogs, architecture, and benchmarks from ALGORITHEC.",
+  description:
+    "AI research, algorithmic architecture, and benchmarks from ALGORITHEC.",
+  alternates: {
+    canonical: "https://algorithec.com/research",
+  },
 };
 
 const publications = [

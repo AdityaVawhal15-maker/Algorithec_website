@@ -3,9 +3,9 @@ import { PageHero, ContentSection, ContentBlock } from "@/components/PageLayout"
 import { FadeIn } from "@/components/ui/Motion";
 
 export const metadata: Metadata = {
-  title: "About ALGORITHEC | Building the Future of Intelligent Decisions",
+  title: "About",
   description:
-    "Learn about ALGORITHEC's vision, mission, leadership, and values. We are building the Intelligence Layer above every digital decision.",
+    "Learn about ALGORITHEC vision, leadership, and mission to build intelligent AI decision infrastructure.",
   alternates: {
     canonical: "https://algorithec.com/about",
   },

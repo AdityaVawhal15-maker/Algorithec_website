@@ -4,7 +4,11 @@ import { FadeIn } from "@/components/ui/Motion";
 
 export const metadata: Metadata = {
   title: "Company",
-  description: "Learn about ALGORITHEC's vision, mission, leadership, and values.",
+  description:
+    "Discover ALGORITHEC vision, leadership, values, and company overview.",
+  alternates: {
+    canonical: "https://algorithec.com/company",
+  },
 };
 
 const values = [

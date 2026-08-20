@@ -3,7 +3,11 @@ import { PageHero, ContentSection } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Cookie Policy",
-  description: "ALGORITHEC Cookie Policy — how we use cookies and tracking technologies.",
+  description:
+    "ALGORITHEC Cookie Policy — how we use essential and functional cookies on our platform.",
+  alternates: {
+    canonical: "https://algorithec.com/cookies",
+  },
 };
 
 export default function CookiesPage() {

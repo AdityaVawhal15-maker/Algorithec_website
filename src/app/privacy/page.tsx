@@ -3,7 +3,11 @@ import { PageHero, ContentSection } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "ALGORITHEC Privacy Policy — how we collect, use, and protect your data.",
+  description:
+    "ALGORITHEC Privacy Policy — how we collect, process, and protect your personal data.",
+  alternates: {
+    canonical: "https://algorithec.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {

@@ -3,7 +3,11 @@ import { PageHero, ContentSection } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "ALGORITHEC Terms of Service — the legal agreement between you and Algorithec Private Limited.",
+  description:
+    "ALGORITHEC Terms of Service — legal terms governing your use of our platform and services.",
+  alternates: {
+    canonical: "https://algorithec.com/terms",
+  },
 };
 
 export default function TermsPage() {

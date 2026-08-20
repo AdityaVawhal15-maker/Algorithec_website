@@ -18,15 +18,15 @@ export function Logo({
   href = "/",
 }: LogoProps) {
   const sizes = {
-    sm: { height: 40, width: 145 },
-    md: { height: 52, width: 185 },
-    lg: { height: 64, width: 225 },
+    sm: { height: 38, width: 128 },
+    md: { height: 48, width: 162 },
+    lg: { height: 60, width: 202 },
   };
 
   const markSizes = {
-    sm: 36,
-    md: 48,
-    lg: 60,
+    sm: 32,
+    md: 44,
+    lg: 56,
   };
 
   const content =

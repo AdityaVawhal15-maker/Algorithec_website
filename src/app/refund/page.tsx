@@ -3,7 +3,11 @@ import { PageHero, ContentSection } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Refund Policy",
-  description: "ALGORITHEC Refund & Cancellation Policy — how refunds and cancellations are handled.",
+  description:
+    "ALGORITHEC Refund & Cancellation Policy — terms and conditions for refunds and cancellations.",
+  alternates: {
+    canonical: "https://algorithec.com/refund",
+  },
 };
 
 export default function RefundPage() {

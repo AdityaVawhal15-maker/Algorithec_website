@@ -7,7 +7,11 @@ import { FlounaLogo } from "@/components/FlounaLogo";
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Join ALGORITHEC and help build the future of intelligent decision-making.",
+  description:
+    "Join ALGORITHEC and help engineer intelligent AI decision infrastructure.",
+  alternates: {
+    canonical: "https://algorithec.com/careers",
+  },
 };
 
 const benefits = [

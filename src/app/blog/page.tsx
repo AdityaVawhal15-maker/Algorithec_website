@@ -5,7 +5,11 @@ import { FlounaLogo } from "@/components/FlounaLogo";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "News, insights, and updates from ALGORITHEC.",
+  description:
+    "News, insights, and technological updates from the ALGORITHEC team.",
+  alternates: {
+    canonical: "https://algorithec.com/blog",
+  },
 };
 
 export default function BlogPage() {

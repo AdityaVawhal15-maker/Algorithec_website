@@ -5,7 +5,11 @@ import { Code, Book, Puzzle, Terminal } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Developers",
-  description: "API documentation, SDKs, and integration guides for the ALGORITHEC Decision Engine.",
+  description:
+    "API documentation, SDKs, and integration guides for the ALGORITHEC Decision Engine platform.",
+  alternates: {
+    canonical: "https://algorithec.com/developers",
+  },
 };
 
 const comingSoon = [

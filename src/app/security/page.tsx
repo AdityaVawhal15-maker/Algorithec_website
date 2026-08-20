@@ -3,7 +3,11 @@ import { PageHero, ContentSection } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "Security",
-  description: "ALGORITHEC Security Policy — how we protect your data and what to do in the event of a security incident.",
+  description:
+    "ALGORITHEC Security Policy — our infrastructure safeguards, compliance standards, and vulnerability reporting.",
+  alternates: {
+    canonical: "https://algorithec.com/security",
+  },
 };
 
 export default function SecurityPage() {
