@@ -18,9 +18,9 @@ export function Logo({
   href = "/",
 }: LogoProps) {
   const sizes = {
-    sm: { height: 38, width: 128 },
-    md: { height: 48, width: 162 },
-    lg: { height: 60, width: 202 },
+    sm: { height: 38, width: 47 },
+    md: { height: 48, width: 59 },
+    lg: { height: 60, width: 74 },
   };
 
   const markSizes = {
@@ -37,7 +37,7 @@ export function Logo({
         width={sizes[size].width}
         height={sizes[size].height}
         className={cn(
-          "h-auto object-contain transition-all duration-200",
+          "w-auto h-auto object-contain transition-all duration-200",
           theme === "dark" && "brightness-0 invert",
           size === "sm" && "max-h-9 sm:max-h-10",
           size === "md" && "max-h-10 sm:max-h-11 md:max-h-12",
