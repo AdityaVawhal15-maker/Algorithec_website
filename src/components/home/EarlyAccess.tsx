@@ -10,10 +10,41 @@ import { FlounaLogo } from "@/components/FlounaLogo";
 export function EarlyAccess() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) setSubmitted(true);
+    if (isSubmitting) return;
+
+    const trimmedEmail = email.trim();
+    if (!trimmedEmail) return;
+
+    setIsSubmitting(true);
+    setErrorMessage("");
+
+    try {
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: trimmedEmail }),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || "Failed to join waitlist.");
+      }
+
+      setSubmitted(true);
+    } catch (err: unknown) {
+      setErrorMessage(
+        err instanceof Error
+          ? err.message
+          : "Something went wrong. Please try again."
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -36,18 +67,33 @@ export function EarlyAccess() {
             <FadeIn delay={0.3}>
               {!submitted ? (
                 <form onSubmit={handleSubmit} className="mt-10 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+                  {/* Honeypot — hidden from real users, traps bots */}
+                  <input
+                    type="text"
+                    name="honeypot"
+                    aria-hidden="true"
+                    tabIndex={-1}
+                    style={{ display: "none" }}
+                  />
                   <input
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email"
                     required
+                    disabled={isSubmitting}
                     className="flex-1 px-5 py-3.5 bg-white border border-black/10 rounded-full text-sm text-black placeholder:text-graphite/50 focus:outline-none focus:ring-2 focus:ring-blue focus:border-transparent transition-shadow"
                     aria-label="Email address"
                   />
-                  <Button variant="primary" size="md" className="sm:px-8">
-                    Join Waitlist
-                    <ArrowRight className="w-4 h-4 ml-2" />
+                  <Button
+                    variant="primary"
+                    size="md"
+                    className="sm:px-8"
+                    type="submit"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? "Joining…" : "Join Waitlist"}
+                    {!isSubmitting && <ArrowRight className="w-4 h-4 ml-2" />}
                   </Button>
                 </form>
               ) : (
@@ -62,6 +108,12 @@ export function EarlyAccess() {
                   <p className="text-sm font-medium text-black">You&apos;re on the list.</p>
                   <p className="text-sm text-graphite">We&apos;ll be in touch soon.</p>
                 </motion.div>
+              )}
+
+              {errorMessage && !submitted && (
+                <p className="mt-3 text-sm text-red-600" role="alert">
+                  {errorMessage}
+                </p>
               )}
 
               <p className="mt-6 text-xs text-graphite/60">
