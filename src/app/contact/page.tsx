@@ -75,7 +75,7 @@ export default function ContactPage() {
                     Need help with <FlounaLogo size="xs" text="Flouna AI" />? Our support team is here for you.
                   </>
                 }
-                email="info@algorithec.com"
+                email="support@algorithec.com"
               />
               <ContactCard
                 id="press"

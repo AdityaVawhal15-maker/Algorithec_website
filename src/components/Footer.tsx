@@ -100,6 +100,87 @@ export function Footer() {
           <FooterColumn title="Support" links={footerLinks.support} />
         </div>
 
+        {/* ─── Department contacts ─── */}
+        <div className="py-8 border-t border-border-light">
+          <h3 className="text-[10px] font-semibold uppercase tracking-[0.18em] text-black mb-5">
+            Department Contacts
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-6">
+            <div>
+              <p className="text-xs font-medium text-black">Customer Support</p>
+              <a
+                href="mailto:support@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                support@algorithec.com
+              </a>
+            </div>
+            <div>
+              <p className="text-xs font-medium text-black">Grievance Officer</p>
+              <a
+                href="mailto:grievance@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                grievance@algorithec.com
+              </a>
+            </div>
+            <div>
+              <p className="text-xs font-medium text-black">Privacy Department</p>
+              <a
+                href="mailto:privacy@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                privacy@algorithec.com
+              </a>
+            </div>
+            <div>
+              <p className="text-xs font-medium text-black">Security Department</p>
+              <a
+                href="mailto:security@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                security@algorithec.com
+              </a>
+            </div>
+            <div>
+              <p className="text-xs font-medium text-black">Accessibility Department</p>
+              <a
+                href="mailto:accessibility@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                accessibility@algorithec.com
+              </a>
+            </div>
+            <div>
+              <p className="text-xs font-medium text-black">Legal Department</p>
+              <a
+                href="mailto:legal@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                legal@algorithec.com
+              </a>
+            </div>
+            <div>
+              <p className="text-xs font-medium text-black">Escalation Department</p>
+              <a
+                href="mailto:escalation@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                escalation@algorithec.com
+              </a>
+            </div>
+            <div>
+              <p className="text-xs font-medium text-black">General Inquiries</p>
+              <a
+                href="mailto:info@algorithec.com"
+                className="text-xs text-graphite hover:text-black transition-colors duration-250"
+              >
+                info@algorithec.com
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* ─── Trust badges row ─── */}
         <div className="py-8 border-t border-border-light flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
           <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-graphite/40 flex-shrink-0">

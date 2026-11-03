@@ -168,7 +168,7 @@ export default function TermsPage() {
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">5.4 Refunds &amp; Cancellations</h3>
                 <p className="mb-2">Refund policies of the actual seller apply. Algorithec acts as agent for you and is not responsible for seller policies. Cancellations follow partner platform rules. Refunds are processed by ONDC/partners within 3–5 business days.</p>
-                <p className="mb-2">To request a refund: contact the seller/ONDC first; if not resolved, contact us at <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a> with your order ID and reason. We will escalate and typically resolve within 7–10 business days.</p>
+                <p className="mb-2">To request a refund: contact the seller/ONDC first; if not resolved, contact us at <a href="mailto:support@algorithec.com" className="text-blue hover:underline">support@algorithec.com</a> with your order ID and reason. We will escalate and typically resolve within 7–10 business days.</p>
                 <p className="mb-2 font-medium text-black">Non-refundable situations include:</p>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Services delivered and used (food consumed, ride completed, hotel stay completed)</li>
@@ -285,7 +285,7 @@ export default function TermsPage() {
 
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">10.2 Your Right to Terminate</h3>
-                <p>You may terminate your account anytime via Settings → Account → Delete Account, or by emailing <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a>. Termination is effective immediately. Your account cannot be recovered after deletion. Data is retained per our Privacy Policy.</p>
+                <p>You may terminate your account anytime via Settings → Account → Delete Account, or by emailing <a href="mailto:privacy@algorithec.com" className="text-blue hover:underline">privacy@algorithec.com</a>. Termination is effective immediately. Your account cannot be recovered after deletion. Data is retained per our Privacy Policy.</p>
               </div>
             </div>
           </section>
@@ -299,8 +299,8 @@ export default function TermsPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-medium text-black mb-3">11.1 Informal Resolution</h3>
-                <p className="mb-2">First step: Contact <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a> with a detailed description of the dispute, including order IDs, dates, amounts, and your proposed resolution. We will respond within 10 business days and attempt good faith negotiation.</p>
-                <p>If not resolved, escalate to <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a>. A grievance officer will be assigned for a 30-day investigation with a written response within 45 days.</p>
+                <p className="mb-2">First step: Contact <a href="mailto:support@algorithec.com" className="text-blue hover:underline">support@algorithec.com</a> with a detailed description of the dispute, including order IDs, dates, amounts, and your proposed resolution. We will respond within 10 business days and attempt good faith negotiation.</p>
+                <p>If not resolved, escalate to <a href="mailto:escalation@algorithec.com" className="text-blue hover:underline">escalation@algorithec.com</a>. A grievance officer will be assigned for a 30-day investigation with a written response within 45 days.</p>
               </div>
 
               <div>
@@ -376,7 +376,7 @@ export default function TermsPage() {
             <div className="space-y-4">
               <div>
                 <p className="font-medium text-black mb-1">Customer Support</p>
-                <p>Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
+                <p>Email: <a href="mailto:support@algorithec.com" className="text-blue hover:underline">support@algorithec.com</a></p>
                 <p>Phone: +91 7396144250</p>
                 <p>Chat: In-app support</p>
                 <p>Hours: Monday–Friday, 10 AM – 6 PM IST</p>
@@ -384,13 +384,13 @@ export default function TermsPage() {
 
               <div>
                 <p className="font-medium text-black mb-1">Grievance Officer</p>
-                <p>Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
+                <p>Email: <a href="mailto:grievance@algorithec.com" className="text-blue hover:underline">grievance@algorithec.com</a></p>
                 <p>Phone: +91 7396144250</p>
               </div>
 
               <div>
                 <p className="font-medium text-black mb-1">Legal Notices</p>
-                <p>Email: <a href="mailto:info@algorithec.com" className="text-blue hover:underline">info@algorithec.com</a></p>
+                <p>Email: <a href="mailto:legal@algorithec.com" className="text-blue hover:underline">legal@algorithec.com</a></p>
                 <address className="not-italic mt-2">
                   ALGORITHEC PRIVATE LIMITED — Legal Department<br />
                   Unit 101, Oxford Towers, 139/88,<br />
